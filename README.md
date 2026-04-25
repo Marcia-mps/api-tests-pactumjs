@@ -1,6 +1,6 @@
 # API Tests com PactumJS
 
-Este projeto tem como objetivo validar serviços de API utilizando PactumJS, simulando operações de um e-commerce com categorias e produtos.
+Projeto de automação de testes de API utilizando PactumJS, Mocha e Mochawesome para validação de endpoints GraphQL.
 
 ## Tecnologias utilizadas
 
@@ -8,14 +8,6 @@ Este projeto tem como objetivo validar serviços de API utilizando PactumJS, sim
 - PactumJS
 - Mocha
 - Mochawesome
-
-## Estrutura do projeto
-
-tests/
-- categorias.test.js
-- produtos.test.js
-- support/
-  - mockGraphqlServer.js
 
 ## Cenários testados
 
@@ -44,8 +36,3 @@ O projeto gera relatórios de execução utilizando Mochawesome.
 ```bash
 npm install
 npm test
-
-```md
-## Observação
-
-Foi utilizado um mock de servidor GraphQL local para simular as respostas da API, permitindo validar os cenários de teste de forma controlada e independente de um backend real.
