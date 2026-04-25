@@ -1,0 +1,18 @@
+{
+  "name": "api-tests-pactumjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "test": "mocha tests/**/*.test.js --reporter mochawesome"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
+    "pactum": "^3.9.1"
+  }
+}
