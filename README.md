@@ -45,6 +45,7 @@ O projeto gera relatórios de execução utilizando Mochawesome.
 npm install
 npm test
 
+```md
 ## Observação
 
-Foi utilizado um mock de servidor GraphQL local para simular as respostas da API.
+Foi utilizado um mock de servidor GraphQL local para simular as respostas da API, permitindo validar os cenários de teste de forma controlada e independente de um backend real.
